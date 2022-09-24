@@ -25,6 +25,7 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+    _buscaPrecoBTC();
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
